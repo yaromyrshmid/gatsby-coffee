@@ -68,3 +68,8 @@ h6 {
   background-size: cover;
   opacity: 1 !important;
 }
+
+.menu,
+.contact {
+  background: var(--mainGray);
+}

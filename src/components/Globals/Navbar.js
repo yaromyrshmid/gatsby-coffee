@@ -44,7 +44,7 @@ const Navigation = () => {
             )
           })}
           <Link to="/" className="nav-link ml-sm-5">
-            <FaCartArrowDown className="cart-icon" />
+            <FaCartArrowDown className="snipcart-checkout cart-icon" />
           </Link>
         </Nav>
       </Navbar.Collapse>

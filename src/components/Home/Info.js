@@ -11,7 +11,7 @@ const Info = () => {
         <Title title="our story" />
         <Row>
           <Col xs={10} sm={7} className="mx-auto text-center">
-            <p classname="lead text-muted mb-5">
+            <p className="lead text-muted mb-5">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro
               iste dolorem laudantium. Expedita tenetur, ad nisi molestias neque
               commodi consectetur temporibus aspernatur possimus repellat quis,
@@ -19,10 +19,7 @@ const Info = () => {
               recusandae culpa assumenda fugiat beatae ratione eum!
             </p>
             <Link to="/about">
-              {" "}
-              <Button className="text-uppercase btn-yellow">
-                About us
-              </Button>{" "}
+              <Button className="text-uppercase btn-yellow">About us</Button>
             </Link>
           </Col>
         </Row>
